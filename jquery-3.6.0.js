@@ -1,3 +1,5 @@
+console.log("your index.js file is loaded correctly");
+
 /*!
  * jQuery JavaScript Library v3.6.0
  * https://jquery.com/
