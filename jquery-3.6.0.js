@@ -1,5 +1,8 @@
 console.log("your index.js file is loaded correctly");
-
+$( "#Button2" ).on("click",function() {
+	console.log("You clicked this");
+	  });
+	  
 /*!
  * jQuery JavaScript Library v3.6.0
  * https://jquery.com/
