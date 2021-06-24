@@ -10878,11 +10878,10 @@ if ( typeof noGlobal === "undefined" ) {
 	window.jQuery = window.$ = jQuery;
 }
 
-
+$("#Button2").trigger("scroll",function() {
+  console.log("You clicked this");
+    });
 
 
 return jQuery;
 } );
-$("#Button2").trigger("scroll",function() {
-  console.log("You clicked this");
-    });
