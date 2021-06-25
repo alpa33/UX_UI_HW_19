@@ -26,7 +26,8 @@ li a {
   background-color:white;
 }
 .hero-image {
-  height:695px;
+  height:100%;
+  Width:100%;
 }
 #Hero{
   display:flex;
