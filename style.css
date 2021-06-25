@@ -44,12 +44,12 @@ li a {
 }
 .herotext{
   position: absolute;
-  top: 298px;
+  top: 288px;
   left: 190px;
 }
 .subtext{
   position: absolute;
-  top: 365px;
+  top: 355px;
   left: 190px;
 }
 
@@ -176,4 +176,4 @@ padding:45px}
   body {
     display:flex;
     flex-direction:column;
-  }
+  }}
