@@ -61,6 +61,7 @@ li a {
   height:60px;
   width:180px;
   border-radius:25px;
+  font-size:18px;
   
 }
 
@@ -81,8 +82,8 @@ li a {
   display:flex;
   flex-direction: column;
   align-items:center;
-  background-color:#FFF6E8;
-  color:#4A1C59;
+  background-color:#4A1C59;
+  color:white;
 }
 
 
@@ -142,6 +143,15 @@ font-size:27pt;
   color:#8733A3;
 text-align:center;
 padding:45px}
+h5{
+  font-size:48px;
+  color: #FFC839;
+}
+h6{
+  font-size:30px;
+  color:white;
+  padding:none;
+}
 
 #Button5{
   width:40%;
@@ -151,6 +161,7 @@ padding:45px}
   background-color:#8733A3;
   text-align:center;
   border-radius:25px;
+  font-family:"Poppins";
 }
 #Button4{
   width:60%;
