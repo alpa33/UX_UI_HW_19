@@ -83,7 +83,7 @@ li a {
   flex-direction: column;
   align-items:center;
   background-color:#4A1C59;
-  color:white;
+  color:#white;
 }
 
 
@@ -152,6 +152,14 @@ h6{
   color:white;
   padding:none;
 }
+h7{
+  font-size:3opx;
+  color:black;
+  font-family:"Inter";
+  margin:45px;
+  padding;10px;
+  text-align:center;
+}
 
 #Button5{
   width:40%;
@@ -172,6 +180,7 @@ h6{
   height:60px;
   width:180px;
   border-radius:25px;
+  font-family:"Poppins";
 }
 #Button3{
   width:60%;
@@ -182,6 +191,7 @@ h6{
   height:60px;
   width:180px;
   border-radius:25px;
+  font-family:"Poppins";
 }
 #Button2{
   width:50%;
@@ -192,6 +202,7 @@ h6{
   height:60px;
   width:180px;
   border-radius:25px;
+  font-family:"Poppins";
 }
 #Button1{
   width:60%;
@@ -202,6 +213,7 @@ h6{
   height:60px;
   width:180px;
   border-radius:25px;
+  font-family:"Poppins";
 }
 @media only screen and (max-width: 600px) {
   body {
