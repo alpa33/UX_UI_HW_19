@@ -1,8 +1,8 @@
 .navigation-bar ul {
   padding: 0px;
   margin: 0px;
-  float: right;
-  display:block;
+ float: right;
+  display:inline-block;
   vertical-align:top;
 }
 ul {
