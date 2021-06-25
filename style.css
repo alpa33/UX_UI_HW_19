@@ -1,8 +1,8 @@
 .navigation-bar ul {
   padding: 0px;
   margin: 0px;
- float: right;
-  display:inline-block;
+  float: right;
+  display:block;
   vertical-align:top;
 }
 ul {
@@ -148,40 +148,49 @@ padding:45px}
   margin-left:30%;
   margin-right:30%;
   color:white;
-  background-color:#4A1C59;
+  background-color:#8733A3;
   text-align:center;
+  border-radius:25px;
 }
 #Button4{
   width:60%;
   margin-left:20%;
   margin-right:20%;
-  color:white;
-  background-color:#4A1C59;
-  text-align:center;
+  background-color:#8733A3;
+  color: white;
+  height:60px;
+  width:180px;
+  border-radius:25px;
 }
 #Button3{
   width:60%;
   margin-left:20%;
   margin-right:20%;
-  color:white;
-  background-color:#4A1C59;
-  text-align:center;
+  background-color:#8733A3;
+  color: white;
+  height:60px;
+  width:180px;
+  border-radius:25px;
 }
 #Button2{
   width:50%;
   margin-left:20%;
   margin-right:20%;
-  color:white;
-  background-color:#4A1C59;
-  text-align:center;
+  background-color:#8733A3;
+  color: white;
+  height:60px;
+  width:180px;
+  border-radius:25px;
 }
 #Button1{
   width:60%;
   margin-left:20%;
   margin-right:20%;
-  color:white;
-  background-color:#4A1C59;
-  text-align:center;
+  background-color:#8733A3;
+  color: white;
+  height:60px;
+  width:180px;
+  border-radius:25px;
 }
 @media only screen and (max-width: 600px) {
   body {
