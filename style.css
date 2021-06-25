@@ -1,8 +1,8 @@
 .navigation-bar ul {
   padding: 0px;
   margin: 0px;
- float: right;
-  display:inline-block;
+  float: right;
+  display:block;
   vertical-align:top;
 }
 ul {
@@ -51,6 +51,17 @@ li a {
   position: absolute;
   top: 355px;
   left: 190px;
+}
+.herobutton{
+  position: absolute;
+  top:460px;
+  left:190px;
+  background-color:#8733A3;
+  color: white;
+  height:60px;
+  width:180px;
+  border-radius:25px;
+  
 }
 
 .Feeding{
