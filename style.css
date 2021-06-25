@@ -30,7 +30,7 @@ li a {
  
 }
 .hero{
-margin-top:350px;
+margin-top:20px;
 }
 #Hero{
   display:flex;
@@ -92,6 +92,7 @@ margin-top:350px;
   display:flex;
   flex-direction:row;
   align-items:center;
+  margin-top:300px;
 }
 #Child1{
   display:flex;
