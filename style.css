@@ -44,13 +44,13 @@ li a {
 }
 .herotext{
   position: absolute;
-  top: 8px;
-  left: 120px;
+  top: 108px;
+  left: 150px;
 }
 .subtext{
   position: absolute;
-  top: 75px;
-  left: 120px;
+  top: 175px;
+  left: 150px;
 }
 
 .Feeding{
