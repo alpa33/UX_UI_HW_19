@@ -26,13 +26,32 @@ li a {
   text-decoration: none;
   background-color:white;
 }
-
+.hero-image {
+  height:695px;
+}
 #Hero{
   display:flex;
   flex-direction: column;
   align-items:center;
   background-color:#FFF6E8;
   color:#4A1C59;
+}
+.heroo{
+  position: relative;
+  text-align: center;
+  background-color: #FFC838;
+  height:400px;
+  width:1300px
+}
+.herotext{
+  position: absolute;
+  top: 8px;
+  left: 420px;
+}
+.subtext{
+  position: absolute;
+  top: 8px;
+  left: 420px;
 }
 
 .Feeding{
