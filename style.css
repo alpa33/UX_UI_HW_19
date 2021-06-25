@@ -39,19 +39,18 @@ li a {
 .heroo{
   position: relative;
   text-align: center;
-  background-color: #FFC838;
   height:400px;
   width:1300px
 }
 .herotext{
   position: absolute;
   top: 8px;
-  left: 420px;
+  left: 120px;
 }
 .subtext{
   position: absolute;
-  top: 8px;
-  left: 420px;
+  top: 75px;
+  left: 120px;
 }
 
 .Feeding{
