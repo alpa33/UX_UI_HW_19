@@ -1,216 +1,170 @@
-.navigation-bar ul {
-  padding: 0px;
-  margin: 0px;
-  float: right;
-  display:block;
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Thundering Paws html </title>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+<style>
+body {
+    font-family: 'Poppins';font-size: 22px;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
+</style>
+  </head>
+  <body>
+     <!--  My UX Skills section coded using CSS flex -->
+    <section>
+       <div class="navigation-bar">
+        <div id="navigation-container">
+            <img src="logo.png"  height="90px" width="350"> 
+      <ul>
+        <li><a href="Donate.asp">Donate</a></li>
+          <li><a href="Foster.asp">Foster</a></li>
+        <li><a href="Volunteer.asp">Volunteer</a></li>
+          <li><a href="Adopt.asp">Adopt</a></li>
+           <li><a href="About.asp">About Us</a></li>
+       </li>     </ul>
+               </div>
+    </div>
+    </div>
+  </section>
+<section class="heroo">
+    <div class="hero-image">
+    <img src="Hero.png">
+      </div>
+    <button class="herobutton" style="font-family:Poppins">
+      Read more</button>
+</section>
+      <div class="flexContainer">
+        <div id=Child1>
+          <img src="adopt.png" alt="cat" height="70px" width="70">
+        <h3> Adopt</h3>
+        <p> Looking for a furry friend? We can help find the right animal for you. </p>
+           <button id="Button1">
+             <p> Read more</p>
+             </button>
+      </div>
+        <div id=Child2> <img src="foster.png" alt="crate" height="75px" width="70">
+        <h3> Foster</h3>
+        <p> Foster parents help us save more animals by providing a temporary home.</p>
+           <button id="Button2">
+             <p> Read more</p>
+          </button>
+      </div>
+        <div id=Child3><img src="vol.png"alt="hand"height="65px" width="70">
+        <h3> Volunteer
+</h3>
+        <p> Volunteers are the backbone of Thundering Paws. View onsite & offsite opportunities.</p>
+           <button id="Button3">
+             <p> Read more</p>
+             </button>
+    </div>
+         <div id=Child4><img src="donate.png"alt="coins"height="65px" width="70">
+        <h3> Donate
+</h3>
+        <p> We depend on our generous donors to fund our programs, supplies, and adoption events.</p>
+           <button id="Button4">
+             <p> Read more</p>
+             </button>
+      </div>
+    </div>
+      </section>
+<div class="hero">  
+        <h5>The Thundering Paws Mission</h5>
+        <h6>Thundering Paws offers a safe haven for cats who are homeless, neglected, injured, or abused</h6>
+          <h6>We help other animals when we can find a foster home for them.</h6>
+      </div>
+      <div class="featured">
+        <img src="imghold.png" width="1550px">
+      </div>
+      <section class="footer">
+    
+      </section>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="JS\index.js"></script>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Thundering Paws html </title>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+<style>
+body {
+    font-family: 'Poppins';font-size: 22px;
 }
-
-li {
-  float: right;
-  padding:10px;
-}
-
-li a {
-  display: block;
-  color: #8733A3;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-  background-color:white;
-}
-.hero-image {
-  height:400px;
- 
-}
-.hero{
-margin-top:20px;
-}
-#Hero{
-  display:flex;
-  flex-direction: column;
-  align-items:center;
-  background-color:#FFF6E8;
-  color:#4A1C59;
-}
-.heroo{
-  position: relative;
-  text-align: center;
-}
-.herobutton{
-  position: absolute;
-  top:500px;
-  left:190px;
-  background-color:#8733A3;
-  color: white;
-  height:60px;
-  width:180px;
-  border-radius:25px;
-  font-size:18px;
-  
-}
-
-.Feeding{
-  grid-area:"myArea";
-}
-.word{
-  display:flex;
-  flex-direction:row;
-  padding:10px;
-  width:100%;
-  margin:10px;
-  align-items:center;
-  color: #4A1C59;}
- 
-.Blurb{padding:40px;}
-.hero{
-  display:flex;
-  flex-direction: column;
-  align-items:center;
-  background-color:#4A1C59;
-  color:white;
-}
-
-
-.flexContainer{
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  margin-top:300px;
-}
-#Child1{
-  display:flex;
-  flex-direction:column;
-  padding:10px;
-  width:33%;
-  margin:50px;
-  align-items:center;
-}
-#Child2{
-  display:flex;
-  flex-direction:column;
-  padding:10px;
-  width:33%;
-  margin:50px;
-  align-items:center;
-}
-#Child3{
-  display:flex;
-  flex-direction:column;
-  padding:10px;
-  width:33%;
-  margin:50px;
-  align-items:center;
-}
-#Child4{
-  display:flex;
-  flex-direction:column;
-  padding:10px;
-  width:33%;
-  margin:50px;
-  align-items:center;
-}
-p{
-  font-size:15pt;
-}
-p1{
-  font-size:15pt;
-  color:#4A1C59;
-}
-h3{
-  font-size:22pt;
-}
-h1{
-  font-size:27pt;
-  color:#8733A3;
-}
-h2{
-font-size:27pt;
-  color:#8733A3;
-text-align:center;
-padding:45px}
-h5{
-  font-size:48px;
-  color: #FFC839;
-}
-h6{
-  font-size:30px;
-  color:white;
-  padding:none;
-}
-
-#h7{
-  font-size:3opx;
-  color:black;
-  font-family:"Poppins";
-  margin:45px;
-  padding:10px;
-  text-align:center;
-}
-
-#Button5{
-  width:40%;
-  margin-left:30%;
-  margin-right:30%;
-  color:white;
-  background-color:#8733A3;
-  text-align:center;
-  border-radius:25px;
-  font-family:"Poppins";
-}
-#Button4{
-  margin-left:20%;
-  margin-right:20%;
-  background-color:#8733A3;
-  color: white;
-  height:60px;
-  width:180px;
-  border-radius:25px;
-  font-family:"Poppins";
-  
-}
-#Button3{
-  width:60%;
-  margin-left:20%;
-  margin-right:20%;
-  background-color:#8733A3;
-  color: white;
-  height:60px;
-  width:180px;
-  border-radius:25px;
-  font-family:"Poppins";
-}
-#Button2{
-  width:50%;
-  margin-left:20%;
-  margin-right:20%;
-  background-color:#8733A3;
-  color: white;
-  height:60px;
-  width:180px;
-  border-radius:25px;
-  font-family:"Poppins";
-}
-#Button1{
-  width:60%;
-  margin-left:20%;
-  margin-right:20%;
-  background-color:#8733A3;
-  color: white;
-  height:60px;
-  width:180px;
-  border-radius:25px;
-  font-family:"Poppins";
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    display:flex;
-    flex-direction:column;
-  }}
+</style>
+  </head>
+  <body>
+     <!--  My UX Skills section coded using CSS flex -->
+    <section>
+       <div class="navigation-bar">
+        <div id="navigation-container">
+            <img src="logo.png"  height="90px" width="350"> 
+      <ul>
+        <li><a href="Donate.asp">Donate</a></li>
+          <li><a href="Foster.asp">Foster</a></li>
+        <li><a href="Volunteer.asp">Volunteer</a></li>
+          <li><a href="Adopt.asp">Adopt</a></li>
+           <li><a href="About.asp">About Us</a></li>
+       </li>     </ul>
+               </div>
+    </div>
+    </div>
+  </section>
+<section class="heroo">
+    <div class="hero-image">
+    <img src="Hero.png">
+      </div>
+    <button class="herobutton" style="font-family:Poppins">
+      Read more</button>
+</section>
+      <div class="flexContainer">
+        <div id=Child1>
+          <img src="adopt.png" alt="cat" height="70px" width="70">
+        <h3> Adopt</h3>
+        <p> Looking for a furry friend? We can help find the right animal for you. </p>
+           <button id="Button1">
+             <p> Read more</p>
+             </button>
+      </div>
+        <div id=Child2> <img src="foster.png" alt="crate" height="75px" width="70">
+        <h3> Foster</h3>
+        <p> Foster parents help us save more animals by providing a temporary home.</p>
+           <button id="Button2">
+             <p> Read more</p>
+          </button>
+      </div>
+        <div id=Child3><img src="vol.png"alt="hand"height="65px" width="70">
+        <h3> Volunteer
+</h3>
+        <p> Volunteers are the backbone of Thundering Paws. View onsite & offsite opportunities.</p>
+           <button id="Button3">
+             <p> Read more</p>
+             </button>
+    </div>
+         <div id=Child4><img src="donate.png"alt="coins"height="65px" width="70">
+        <h3> Donate
+</h3>
+        <p> We depend on our generous donors to fund our programs, supplies, and adoption events.</p>
+           <button id="Button4">
+             <p> Read more</p>
+             </button>
+      </div>
+    </div>
+      </section>
+<div class="hero">  
+        <h5>The Thundering Paws Mission</h5>
+        <h6>Thundering Paws offers a safe haven for cats who are homeless, neglected, injured, or abused</h6>
+          <h6>We help other animals when we can find a foster home for them.</h6>
+      </div>
+      <div class="featured">
+        <img src="imghold.png" width="1550px">
+      </div>
+      <section class="footer">
+    
+      </section>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="JS\index.js"></script>
+</html>

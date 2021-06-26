@@ -43,10 +43,9 @@ margin-top:20px;
   position: relative;
   text-align: center;
 }
-}
 .herobutton{
   position: absolute;
-  top:460px;
+  top:500px;
   left:190px;
   background-color:#8733A3;
   color: white;
@@ -166,7 +165,6 @@ h6{
   font-family:"Poppins";
 }
 #Button4{
-  width:60%;
   margin-left:20%;
   margin-right:20%;
   background-color:#8733A3;
@@ -175,6 +173,7 @@ h6{
   width:180px;
   border-radius:25px;
   font-family:"Poppins";
+  
 }
 #Button3{
   width:60%;
