@@ -43,15 +43,6 @@ margin-top:20px;
   position: relative;
   text-align: center;
 }
-.herotext{
-  position: absolute;
-  top: 288px;
-  left: 190px;
-}
-.subtext{
-  position: absolute;
-  top: 355px;
-  left: 190px;
 }
 .herobutton{
   position: absolute;
@@ -218,11 +209,7 @@ h6{
   border-radius:25px;
   font-family:"Poppins";
 }
-.featured{
-  width: 240px;
-  height: 300px;
-  object-fit: fill;
-}
+
 @media only screen and (max-width: 600px) {
   body {
     display:flex;
